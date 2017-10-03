@@ -1,13 +1,7 @@
-<?php
-echo "<table border=1>";
+{?php
+$x=['Иванов','Петров','Михайлов']
+for ($i=0;$i<count($x);$i++){
+	echo $x[$i]
+}
 
- for($i=1;$i<=9;$i++) {
-	 echo "<tr>";
-	 For ($j=1;$j<=10;$j++) {
-		 $y=($i*$j);
-		 echo "<td>$i*$j=$y <br></td>";
-};
-     echo "</tr>";
-	};
-echo "</table>";
 ?>
